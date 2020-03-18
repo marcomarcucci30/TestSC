@@ -3,11 +3,11 @@ package logic;
 import java.util.logging.Logger;
 
 public class HelloWorld {
-	final static Logger log = Logger.getLogger(HelloWorld.class.getName());
+	static final Logger log = Logger.getLogger(HelloWorld.class.getName());
 
 	public static void main(String[] args) {
 		
-		log.info("Hello World!");
+		log.info("Hello World Sonar Cloud!");
 	}
 
 }
