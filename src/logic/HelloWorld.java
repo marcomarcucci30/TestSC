@@ -1,10 +1,13 @@
 package logic;
 
+import java.util.logging.Logger;
+
 public class HelloWorld {
+	final static Logger log = Logger.getLogger(HelloWorld.class.getName());
 
 	public static void main(String[] args) {
-		System.out.println("Hello World SonarCloud!!!");
-
+		
+		log.info("Hello World!");
 	}
 
 }
