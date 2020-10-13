@@ -7,7 +7,7 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		
-		log.info("Hello World Sonar Cloud from Acer!");
+		log.info("Hello World Sonar Cloud from Acer!!!");
 	}
 
 }
